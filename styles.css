@@ -1,0 +1,78 @@
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}   
+
+.new-price {
+    color: red;
+    font-weight: bold;
+}
+
+.badge {
+    color: white;
+    background-color: red;
+    display: inline-block;
+    padding: 5px;
+    font-size: 12px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 220px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.products img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
